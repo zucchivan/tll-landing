@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://thelanguagelink.com.br/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thelanguagelink.com.br/" />
+  </url>
+
+  <!-- Pricing Section -->
+  <url>
+    <loc>https://thelanguagelink.com.br/#pricing</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thelanguagelink.com.br/#pricing" />
+  </url>
+
+  <!-- Features/Method Section -->
+  <url>
+    <loc>https://thelanguagelink.com.br/#features</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thelanguagelink.com.br/#features" />
+  </url>
+
+  <!-- Testimonials Section -->
+  <url>
+    <loc>https://thelanguagelink.com.br/#testimonials</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thelanguagelink.com.br/#testimonials" />
+  </url>
+</urlset>

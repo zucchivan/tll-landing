@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Quote } from 'lucide-vue-next'
-import { testimonials, type TestimonialItem } from '@/data/content'
+import { testimonials, type TestimonialItem } from '@/data/content.pt-BR'
 </script>
 
 <template>

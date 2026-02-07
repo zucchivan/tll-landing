@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-vue-next'
-import { footer, brand } from '@/data/content'
+import { footer, brand } from '@/data/content.pt-BR'
 
 const currentYear = new Date().getFullYear()
 

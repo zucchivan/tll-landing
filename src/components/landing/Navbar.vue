@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Menu, X } from 'lucide-vue-next'
-import { brand, navLinks, ctaButtons } from '@/data/content'
+import { brand, navLinks, ctaButtons } from '@/data/content.pt-BR'
 
 const mobileMenuOpen = ref(false)
 

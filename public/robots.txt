@@ -1,0 +1,17 @@
+# Robots.txt para The Language Link Brasil
+# Permitir todos os crawlers
+
+User-agent: *
+Allow: /
+
+# Bloquear arquivos de configuração e desenvolvimento
+Disallow: /src/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /vite.config.ts
+
+# Sitemap
+Sitemap: https://thelanguagelink.com.br/sitemap.xml
+
+# Delay de rastreamento para respeitar o servidor
+Crawl-delay: 1

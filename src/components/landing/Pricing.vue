@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Check } from 'lucide-vue-next'
-import { pricing, type PricingPlan } from '@/data/content'
+import { pricing, type PricingPlan } from '@/data/content.pt-BR'
 </script>
 
 <template>
@@ -36,7 +36,7 @@ import { pricing, type PricingPlan } from '@/data/content'
             <h3 class="text-xl font-semibold text-foreground">{{ plan.name }}</h3>
             <p class="text-muted-foreground">{{ plan.description }}</p>
             <div class="mt-4">
-              <span class="text-4xl font-bold text-foreground">${{ plan.price }}</span>
+              <span class="text-4xl font-bold text-foreground">R${{ plan.price }}</span>
               <span class="text-muted-foreground">/{{ plan.period }}</span>
             </div>
           </div>

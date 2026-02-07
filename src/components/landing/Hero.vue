@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ArrowRight } from 'lucide-vue-next'
-import { hero } from '@/data/content'
+import { hero } from '@/data/content.pt-BR'
 
 // Generate placeholder images for students
 const studentImages: number[] = [1, 2, 3, 4]
@@ -34,7 +34,7 @@ const scrollToPricing = () => {
             {{ hero.badge }}
           </div>
           <h1 class="text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            Master English with <span class="text-brand-pink">{{ hero.titleHighlight }}</span>
+            {{ hero.title }} <span class="text-brand-pink">{{ hero.titleHighlight }}</span>
           </h1>
           <p class="max-w-lg text-pretty text-lg leading-relaxed text-muted-foreground">
             {{ hero.description }}

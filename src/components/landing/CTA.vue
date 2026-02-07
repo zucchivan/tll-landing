@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { ArrowRight, CheckCircle } from 'lucide-vue-next'
-import { cta } from '@/data/content'
+import { cta } from '@/data/content.pt-BR'
 
 // Form state
 const email = ref('')

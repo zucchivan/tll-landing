@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { BookOpen, Users, Award } from 'lucide-vue-next'
-import { features, type FeatureItem } from '@/data/content'
+import { features, type FeatureItem } from '@/data/content.pt-BR'
 
 // Icon mapping
 const iconMap = {
